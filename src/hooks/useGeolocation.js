@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 function useGeolocation() {
-  const [position, setPosition] = useState({});
+  const [position, setPosition] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
 
